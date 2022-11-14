@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5b24b910-9a5e-4f18-b92c-5ebc443d1104">
+  <name>Конфигурация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка данных из CSV</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="ac75b80b-b8ac-499c-9249-4555569278dc"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="85598a23-7534-4c9d-b33a-1ffaddb56f3b"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="c27ed63b-9673-4964-a5f4-8a51613f3568"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="ba7c2662-bcf8-48c1-aa46-7bab9ad26e0b"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="53bbc3c6-34f2-45c0-bf12-47d9650a6204"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="78853859-e2e4-4fc9-bcc8-d6705370b185"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="e840ebc5-22cd-42d7-9e99-b1053e846954"/>
+  <configurationExtensionCompatibilityMode>8.3.21</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.16</compatibilityMode>
+  <languages uuid="b20b26a4-ec8b-40b4-9c5a-91c4155aa91a">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <commonModules>CommonModule.ОбработкаФайлов</commonModules>
+  <enums>Enum.КодыТиповОбработки</enums>
+  <enums>Enum.ВидУслуги</enums>
+  <enums>Enum.СреднеДневноеКоличество</enums>
+  <reports>Report.РасчетУслугСортировки</reports>
+  <dataProcessors>DataProcessor.ЗагрузкаДанных</dataProcessors>
+  <informationRegisters>InformationRegister.Тариф</informationRegisters>
+  <informationRegisters>InformationRegister.ДанныеРасчета</informationRegisters>
+</mdclass:Configuration>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c958d5f4-f37a-46ed-96d7-5ec692bb97b7">
+  <producedTypes>
+    <refType typeId="0c347cfc-0edc-44bc-b397-4eaa0cb8f98b" valueTypeId="e83acb8a-a9c5-4caf-9030-a5212d061147"/>
+    <listType typeId="5bd2b5e6-e5a7-410c-adbb-61b61a979822" valueTypeId="30d0d5df-f490-43c7-979c-8b9e9861bf31"/>
+    <managerType typeId="0f646eed-5769-4bcc-8cfc-baf7c2b25497" valueTypeId="270b89f8-792f-496d-9355-74e78f6812e2"/>
+  </producedTypes>
+  <name>СреднеДневноеКоличество</name>
+  <synonym>
+    <key>ru</key>
+    <value>Средне дневное количество</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="59538540-91b3-4ace-bb97-21ea8634c5be">
+    <name>До500</name>
+    <synonym>
+      <key>ru</key>
+      <value>&lt; 500</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="378850d5-c11f-4b8e-99f1-52ef8cdcfff7">
+    <name>От500до1000</name>
+    <synonym>
+      <key>ru</key>
+      <value>500...1000</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="71861d64-f65c-438f-bd73-2f4a40f048a5">
+    <name>От1000до2000</name>
+    <synonym>
+      <key>ru</key>
+      <value>1000...2000</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6d919998-3fbc-414c-8323-e00629a4a944">
+    <name>От2000до5000</name>
+    <synonym>
+      <key>ru</key>
+      <value>2000...5000</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0ac89d38-50a9-4b1c-b6fc-6be9e3d81ffc">
+    <name>Более5000</name>
+    <synonym>
+      <key>ru</key>
+      <value>> 5000</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

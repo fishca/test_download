@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5e3e71db-63fe-486a-a538-74e855ec4325">
+  <producedTypes>
+    <selectionType typeId="b9c70239-730c-459f-9f6d-28c02fb19b33" valueTypeId="25bb7fdb-352d-4bad-a053-5e45183d3955"/>
+    <listType typeId="badbbf6e-fec0-416d-9b4e-6575145f3c95" valueTypeId="1a6dc7d6-6c56-48ce-ab1a-c45c18069b4b"/>
+    <managerType typeId="88a33b35-7ae1-434b-9599-5fec764528a2" valueTypeId="3759b970-2cd9-4564-aa4f-a3fc420541e0"/>
+    <recordSetType typeId="d77540d2-150b-4ec6-8337-e9615c6e1265" valueTypeId="cc7d80e6-a09b-4e23-b5c0-223d5d570819"/>
+    <recordKeyType typeId="b5b6812a-356a-46df-aa07-4c0e0dffa082" valueTypeId="0b6d3453-1bd4-4bcf-a636-5b262e5b1c36"/>
+    <recordType typeId="8a551768-8754-4f29-b118-e6b31e123f42" valueTypeId="73b13155-bab0-42ea-a794-5dad8dbcbfc6"/>
+    <recordManagerType typeId="1351a2c1-6b71-4049-9eae-4c9562a776c9" valueTypeId="fa2e5d0c-dd98-4cdb-910f-71b9ab4dcfd1"/>
+  </producedTypes>
+  <name>ДанныеРасчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные расчета</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="0d1c97c2-7387-432f-91c3-37e455d4f87d">
+    <name>Дата_Прибытие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата прибытие</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e8473df4-ddeb-4abe-a818-15cc6f71e95a">
+    <name>Дата_Убытие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата убытие</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="fb32c5dc-710a-4c4b-a53d-ffc560710b0a">
+    <name>КодТипаОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код типа обработки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.КодыТиповОбработки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d8e6012e-0233-4fde-98b8-9ce154568300">
+    <name>НомерГрузовогоМеста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер грузового места</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="232aa92d-26c9-4b05-9f4d-899206f3c638">
+    <name>ЗаказКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ клиента</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="42e9d288-0e36-4d69-98c2-312b271ff79d">
+    <name>ИдентификаторЕдиницыОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор единицы обработки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидУслуги</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a26210a2-ce87-44a8-87f4-f878a1c84890">
+    <name>ОтпСклМс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отп скл мс</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

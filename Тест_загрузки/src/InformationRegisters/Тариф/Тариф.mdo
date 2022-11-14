@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c19d9025-d11b-4ed3-8576-2290cce70f7e">
+  <producedTypes>
+    <selectionType typeId="31aeeafd-0d73-42df-ae05-1bdf4f389313" valueTypeId="4ef71e94-180c-4483-9462-cc96a69f6cb3"/>
+    <listType typeId="ec34cdf6-bcbb-4071-8b9c-7b086edf6b81" valueTypeId="9f6dc080-0156-48cd-b3c3-f6ee3d9c8051"/>
+    <managerType typeId="071765d7-34ad-4fba-b82b-8c2b5081aab6" valueTypeId="ff2f2238-b176-4f93-af9f-1222dadaa92d"/>
+    <recordSetType typeId="5636b8e0-48cb-450d-a9b8-66f074c274b5" valueTypeId="2dd6ea73-1a48-46de-994e-944c42e9c678"/>
+    <recordKeyType typeId="6491b03b-6f2a-45cf-9479-79258887dda9" valueTypeId="cb3fb3d8-e94f-4255-b721-f23ba4762a18"/>
+    <recordType typeId="644629de-12cf-4d0c-9e56-ad51bc79c2d7" valueTypeId="17b278f8-a52e-40c8-bd85-b53c18b223b6"/>
+    <recordManagerType typeId="c7dec596-e148-4a54-8d97-23b2d46adc4a" valueTypeId="a97dbe2c-df50-424f-93e1-3b1e11637393"/>
+  </producedTypes>
+  <name>Тариф</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тариф</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="0e49eb5b-bf22-498b-a33c-1ea5afa6b7d1">
+    <name>Тариф</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тариф</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>19</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="ac890868-c49c-4559-9c16-96c81e99cb31">
+    <name>ГрузовоеМесто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Грузовое место</value>
+    </synonym>
+    <type>
+      <types>EnumRef.КодыТиповОбработки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f8637532-97f9-4d8f-8d6d-eb76459b591b">
+    <name>СреднеДневноеКоличество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Средне дневное количество</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СреднеДневноеКоличество</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4466f437-fc2f-4686-a3d5-c09c256edf97">
+    <name>ВидОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид обработки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидУслуги</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
